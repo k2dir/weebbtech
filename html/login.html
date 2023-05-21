@@ -1,5 +1,5 @@
-!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +10,25 @@
     
     <nav class="l-menu">
         <ul>
-            <a id="Main page" href="../index.html">Anasayfa</a>/
-            <a id="About me" href="aboutme.html">Hakkında</a>/
-             <a id="Resume"  href="Resume.html">Özgeçmiş</a>/
-             <a id="My City" href="MyCity.html">Şehrim</a></li>/
-             <a id="Our heritage" href="OutHeritage.html">Mirasımız</a>/
-            <a id="Login" href="login.html">Login</a></li>/
-             <a id="contact" href="Contact.html">iletişim</a>
+            <li class="menu"><a id="Anasayfa" href="../index.html">Anasayfa</a></li>
+            <li class="menu"><a id="Hakkında" href="aboutme.html">Hakkında</a></li>
+            <li class="menu"><a id="Özgeçmiş"  href="Resume.html">Özgeçmiş</a></li>
+            <li class="menu"><a id="Şehrim" href="MyCity.html">Şehrim</a></li>
+            <li class="menu"><a id="Mirasımız" href="OutHeritage.html">Mirasımız</a></li>
+            <li class="menu"><a id="Login" href="login.html">Login</a></li>
+            <li class="menu"><a id="İletişim" href="Contact.html">İletişim</a></li>
         </ul>
     </nav>
     <div id="kayıt_formu">
         <form action="index.php" method="POST">
-           
+            <div class="l-imgcontainer">
+            
+            </div>
           
             <div class="l-container">
               <label for="uname"><b>Username</b></label>
               <input type="text" placeholder="Enter Username" name="uname" required>
-          
+
               <label for="psw"><b>Password</b></label>
               <input type="password" placeholder="Enter Password" name="psw" required>
           
@@ -36,7 +38,6 @@
               </label>
             </div>
             <div class="l-container">
-              
               
               <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
