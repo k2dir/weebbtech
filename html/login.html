@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-    
-  <div class="header">
-    <a id="Main page" href="../index.html">Anasayfa</a>/
-   <a id="About me" href="aboutme.html">Hakkında</a>/
-    <a id="Resume"  href="Resume.html">Özgeçmiş</a>/
-    <a id="My City" href="MyCity.html">Şehrim</a></li>/
-    <a id="Our heritage" href="OutHeritage.html">Mirasımız</a>/
-   <a id="Login" href="login.html">Login</a></li>/
-    <a id="contact" href="Contact.html">iletişim</a>
 
-    <hr>
-</div>
-    <div id="kayıt_formu">
+<body>
+    <div class="header">
+        <a id="main-page" href="../index.html">Anasayfa</a> /
+        <a id="about-me" href="aboutme.html">Hakkında</a> /
+        <a id="resume" href="Resume.html">Özgeçmiş</a> /
+        <a id="my-city" href="MyCity.html">Şehrim</a> /
+        <a id="our-heritage" href="OutHeritage.html">Mirasımız</a> /
+        <a id="login" href="login.html">Login</a> /
+        <a id="contact" href="Contact.html">iletişim</a>
+        <hr>
+    </div>
+
+    <div id="kayit-formu">
         <form action="index.php" method="POST">
             <div class="l-imgcontainer">
-            
+                
             </div>
-          
-            <div class="l-container">
-              <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required>
 
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
-          
-              <button class="s-btn" type="submit">Login </button>
-              <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-              </label>
+            <div class="l-container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button class="s-btn" type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
             </div>
             <div class="l-container">
-              
-              <span class="psw">Forgot <a href="#">password?</a></span>
+                <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
-          </form>
+        </form>
     </div>
 
 </body>
+
 </html>
